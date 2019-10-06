@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Tenor+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/skills.css" />
+    <link rel="stylesheet" href="styles/work.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <title></title>
+  </head>
+  <body>
+    <!-- container -->
+    <div class="container">
+      <!--
+    *
+    *
+    * ---- Side Bar with image
+    *
+    *
+    -->
+      <aside id="sidebar">
+        <div class="navigations">
+          <div class="nav-icons">
+            <button class="tabLinks" onclick="toggleContent(event, 'about')">
+              <img
+                id="the-img"
+                src="images/user-solid.svg"
+                alt="image of user Icon"
+              />
+            </button>
+            <button class="tabLinks" onclick="toggleContent(event, 'contact')">
+              <img
+                src="images/phone-alt-solid.svg"
+                alt="image of telephone Icon"
+              />
+            </button>
+            <button class="tabLinks" onclick="toggleContent(event, 'work')">
+              <img
+                src="images/briefcase-solid.svg"
+                alt="image of briefcase Icon"
+              />
+            </button>
+            <button class="tabLinks" onclick="toggleContent(event, 'skills')">
+              <img
+                src="images/glasses-solid.svg"
+                alt="image of reading glasses Icon"
+              />
+            </button>
+            <button>
+              <a target="_blank" href="cv.pdf" download target="_blank">
+                <img
+                  src="images/cloud-download-alt-solid.svg"
+                  alt="image of a downloading Icon"
+                />
+              </a>
+            </button>
+          </div>
+        </div>
+        <div class="side-img">
+          <div class="about-img-content">
+            <h1>Abdi Hassan Noor</h1>
+            <div class="links">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/abdifatah-hassan-noor-1570b014a/"
+              >
+                <img
+                  src="images/linkedin-in-brands.svg"
+                  alt="linkedin brands svg/icon"
+              /></a>
+              <a target="_blank" href="https://github.com/Abdifatah29">
+                <img
+                  src="images/github-square-brands.svg"
+                  alt="linkedin brands svg/icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!--
+        *
+        *
+        * ---- Main Content
+        *
+        *
+       -->
+      <main class="main-content">
+        <!--
+      *
+      *
+      * ---- About me
+      *
+      *
+      -->
+        <div id="about" class="asd">
+          <div class="about-img">
+            <img id="my-img" src="images/pic.jpeg" />
+          </div>
+
+          <div class="about-content">
+            <h1>About me</h1>
+            <h2>
+              <span>Developer</span> | <span>Life long learner</span> |
+              <span>Pioneer</span>
+            </h2>
+            <p>
+              Hi, I'm Abdi, a JavaScript and a PHP developer, a life long
+              learner and a problem solver.
+            </p>
+            <p>
+              I am a recent graduate from CodeSpace seeking an entry-level
+              position in web development. During my studies at CodeSpace, I
+              have developed an excellent eye for detail due to the heavy
+              demands of assignments and research. As a result, I am able to
+              work under pressure and have the potential to excel in a
+              professional development field. I am looking for a challenging,
+              fast-paced environment to utilize my coding skills and develop my
+              problem-solving skills further.
+            </p>
+            <p>
+              I'm a polyglot programmer and like using the right tools for the
+              job. In my spare time I enjoy reading about the latest tech news
+              and spending time on enhancing my skills as a developer.
+            </p>
+          </div>
+          <div class="about-links">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/abdifatah-hassan-noor-1570b014a/"
+            >
+              <img
+                src="images/linkedin-in-brands.svg"
+                alt="linkedin brands svg/icon"
+            /></a>
+            <a target="_blank" href="https://github.com/Abdifatah29">
+              <img
+                src="images/github-square-brands.svg"
+                alt="linkedin brands svg/icon"
+            /></a>
+          </div>
+        </div>
+        <!--
+        *
+        *
+        * ---- Contact me
+        *
+        *
+        -->
+        <div id="contact" class="tabContent">
+          <img class="contact-me-img" src="images/contact-me.png" />
+          <div class="contact-me">
+            <img src="images/mailbox.gif" alt="" />
+            <a target="_blank" href="mailto: abdi.hassannoor@gmail.com"
+              >abdi.hassannoor@gmail.com</a
+            >
+          </div>
+          <div class="contact-me">
+            <img src="images/phone-icon.png" alt="" />
+            <p>078 ### ####</p>
+          </div>
+          <div class="contact-me">
+            <img src="images/linkedin-in-brands.svg" alt="" />
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/abdifatah-hassan-noor-1570b014a/"
+              >Connect with me via linkedin</a
+            >
+          </div>
+        </div>
+        <!--
+          *
+          *
+          * ---- My work
+          *
+          *
+        -->
+        <div id="work" class="tabContent">
+          <h1>My work</h1>
+          <div class="work-images">
+            <a
+              target="_blank"
+              href="https://abdifatah29.github.io/codespace-attendees/"
+            >
+              <img src="images/codespace-intranet.png" alt="" />
+            </a>
+          </div>
+          <div class="work-images">
+            <a
+              target="_blank"
+              href="https://abdifatah29.github.io/e-commerse-website/"
+            >
+              <img src="images/nate-b.png" alt="" />
+            </a>
+          </div>
+          <div class="work-images">
+            <a target="_blank" href="https://github.com/Abdifatah29">
+              <img src="images/github-logo.jpeg" alt="" />
+            </a>
+          </div>
+        </div>
+        <!--
+          *
+          *
+          * ---- My Skills
+          *
+          *
+        -->
+        <div id="skills" class="tabContent">
+          <!-- skills -->
+          <div class="skills-content-header">
+            <h1>Skills</h1>
+          </div>
+          <div class="skills-list">
+            <!-- The HTML skills is displayed here using jquery in js/skills.js -->
+          </div>
+          <!-- education -->
+          <div class="skills-content-header education-img">
+            <h1>Education</h1>
+          </div>
+          <div class="education">
+            <div>
+              <p>
+                2019-2019
+              </p>
+              <h2>Certificate in web development</h2>
+            </div>
+            <p class="school-name">Code Space - Woodstock, Cape Town</p>
+          </div>
+          <div class="education">
+            <div>
+              <p>
+                2017-2018
+              </p>
+              <h2>N3 Mechanial Engineering - Fitter</h2>
+            </div>
+            <p class="school-name">TVET College, Port Elizabeth</p>
+          </div>
+          <div class="education">
+            <div>
+              <p>2012-2016</p>
+              <h2>National Senior Certificate</h2>
+            </div>
+            <p class="school-name">Saint Thomas High School - Port Elizabeth</p>
+          </div>
+          <!-- Experience -->
+          <div class="skills-content-header education-img">
+            <h1>Experience</h1>
+          </div>
+
+          <div class="experience">
+            <div>
+              <p>2 July 2019 - 14 July 2019</p>
+              <h2>Fulltime job Shadowing with OneDayOnly's development team</h2>
+            </div>
+            <p class="school-name">OneDayOnly.co.za - WoodstockCape Town</p>
+            <ul>
+              <li>Got Exposure to real world ecommerce application</li>
+              <li>
+                Learned how to setup docker environment on my local machine and
+                helped close a ticket on Jira
+              </li>
+              <li>
+                Worked with senior developers and learned how to debug bugs
+              </li>
+            </ul>
+          </div>
+          <hr />
+          <div class="experience">
+            <div>
+              <p>December 2014 - December 2016</p>
+              <h2>
+                Part-time Retail Sales Assistant
+              </h2>
+            </div>
+            <p class="school-name">Home Dream - Port Elizabeth</p>
+            <ul>
+              <li>
+                Act as the first point of contact by welcoming customers in the
+                store.
+              </li>
+              <li>
+                Provided superior customer service with a sense of urgency and
+                kindness.
+              </li>
+              <li>
+                Guide customers to assist them in making purchasing decisions.
+              </li>
+              <li>
+                Handle refunds and exchanges and associated paperwork. Building
+                a stronger, kinder community with positive social interactions.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/skills.js"></script>
+  </body>
+</html>

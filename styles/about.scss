@@ -1,0 +1,60 @@
+html {
+  body {
+    .container {
+      .main-content {
+        #about {
+          .about-img {
+            @media only screen and (min-width: 750px) {
+              #my-img {
+                display: none;
+              }
+            }
+            @media only screen and (max-width: 750px) {
+              border-bottom: 1px solid lightgray;
+              padding-bottom: 1rem;
+            }
+
+            img {
+              width: 100%;
+            }
+          }
+          .about-content {
+            padding: 2rem;
+            h1 {
+              font-weight: 900;
+              line-height: normal;
+              padding-right: 30px;
+              font-size: 28px;
+            }
+            h2 {
+              font-size: 18px;
+              font-weight: 500;
+              font-family: "Noto Sans TC", sans-serif;
+              color: #888888;
+              span {
+                color: #00c483;
+              }
+            }
+            p {
+              color: #888888;
+              font-size: 16px;
+              text-align: left;
+            }
+          }
+          .about-links {
+            width: 50%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            img {
+              width: 30%;
+            }
+            @media only screen and (min-width: 750px) {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

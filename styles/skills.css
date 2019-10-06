@@ -1,0 +1,96 @@
+#skills {
+  padding: 1rem;
+}
+
+#skills p,
+#skills h1,
+#skills h2 {
+  text-align: left;
+}
+
+#skills p,
+#skills h1,
+#skills h2 {
+  color: #888888;
+}
+
+@media only screen and (min-width: 750px) {
+  #skills {
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #skills h2 {
+    font-size: 16px;
+  }
+  #skills p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #skills {
+    padding: 3rem;
+  }
+}
+
+#skills .skills-content-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#skills .skills-content-header img {
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+}
+
+#skills .skills-list p {
+  padding-bottom: 5px;
+  font-weight: 700;
+  border-bottom: 1px solid #00c483;
+}
+
+#skills .education {
+  margin-bottom: 2rem;
+}
+
+#skills .education div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+#skills .education div h2 {
+  font-size: 18px;
+  margin: 0 12px;
+}
+
+#skills .education .school-name {
+  margin: 0;
+  font-size: 10px;
+}
+
+#skills .education .school-name span {
+  margin-left: 10px;
+}
+
+#skills .experience h2 {
+  font-size: 18px;
+}
+
+#skills .experience ul li {
+  font-family: "Noto Sans TC", sans-serif;
+  color: #444;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}

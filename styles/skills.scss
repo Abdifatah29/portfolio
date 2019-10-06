@@ -1,0 +1,76 @@
+#skills {
+  padding: 1rem;
+  p,
+  h1,
+  h2 {
+    text-align: left;
+  }
+  p,
+  h1,
+  h2 {
+    color: #888888;
+  }
+  @media only screen and (min-width: 750px) {
+    padding: 2rem;
+  }
+  @media only screen and (max-width: 750px) {
+    h2 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    padding: 3rem;
+  }
+  .skills-content-header {
+    display: flex;
+    align-items: center;
+    img {
+      width: 30px;
+      height: 30px;
+      margin-right: 1rem;
+    }
+  }
+
+  .skills-list p {
+    padding-bottom: 5px;
+    font-weight: 700;
+    border-bottom: 1px solid #00c483;
+  }
+
+  // Education
+  .education {
+    margin-bottom: 2rem;
+    div {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      h2 {
+        font-size: 18px;
+        margin: 0 12px;
+      }
+    }
+    .school-name {
+      margin: 0;
+      font-size: 10px;
+      span {
+        margin-left: 10px;
+      }
+    }
+  }
+  .experience {
+    h2 {
+      font-size: 18px;
+    }
+    ul {
+      li {
+        font-family: "Noto Sans TC", sans-serif;
+        color: #444;
+        font-size: 14px;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

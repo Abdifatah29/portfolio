@@ -1,0 +1,45 @@
+#contact {
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 750px) {
+  #contact {
+    padding: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #contact {
+    padding: 3rem;
+  }
+}
+
+#contact .contact-me-img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+#contact .contact-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem;
+}
+
+#contact .contact-me img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+#contact .contact-me a,
+#contact .contact-me p {
+  display: block;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #222;
+}
