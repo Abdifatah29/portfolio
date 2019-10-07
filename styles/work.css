@@ -2,6 +2,11 @@
   padding: 1rem;
 }
 
+#work h1 {
+  font-size: 40px;
+  font-family: 'Gugi', cursive;
+}
+
 @media only screen and (min-width: 750px) {
   #work {
     padding: 2rem;
@@ -28,3 +33,4 @@
 #work .work-images a img {
   width: 100%;
 }
+/*# sourceMappingURL=work.css.map */

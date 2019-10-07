@@ -21,9 +21,10 @@ html body .container .main-content #about .about-content {
 
 html body .container .main-content #about .about-content h1 {
   font-weight: 900;
+  font-family: 'Gugi', cursive;
   line-height: normal;
   padding-right: 30px;
-  font-size: 28px;
+  font-size: 40px;
 }
 
 html body .container .main-content #about .about-content h2 {
@@ -62,3 +63,4 @@ html body .container .main-content #about .about-links img {
     display: none;
   }
 }
+/*# sourceMappingURL=about.css.map */

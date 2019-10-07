@@ -1,5 +1,10 @@
 #skills {
   padding: 1rem;
+  h1{
+     font-size: 40px;
+     font-family: 'Gugi',
+     cursive;
+  }
   p,
   h1,
   h2 {
@@ -9,7 +14,9 @@
   h1,
   h2 {
     color: #888888;
+   
   }
+  
   @media only screen and (min-width: 750px) {
     padding: 2rem;
   }
