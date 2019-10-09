@@ -7,14 +7,17 @@
   font-family: 'Gugi', cursive;
 }
 
+#skills h1 {
+  color: #000;
+  text-align: center;
+}
+
 #skills p,
-#skills h1,
 #skills h2 {
   text-align: left;
 }
 
 #skills p,
-#skills h1,
 #skills h2 {
   color: #888888;
 }

@@ -84,10 +84,12 @@ html body .container #sidebar .navigations .nav-icons {
 
 html body .container #sidebar .navigations .nav-icons button {
   width: 100%;
+  cursor: pointer;
 }
 
 html body .container #sidebar .navigations .nav-icons button a img {
   width: 60px;
+  cursor: pointer;
 }
 
 html body .container #sidebar .navigations .nav-icons button img {
@@ -121,6 +123,8 @@ html body .container #sidebar .side-img {
   }
   html body .container #sidebar .side-img .about-img-content {
     position: absolute;
+    width: 50vh;
+    height: 15vh;
     left: 25%;
     bottom: 20px;
     background: #8585852e;
@@ -139,6 +143,10 @@ html body .container #sidebar .side-img {
     font-size: 25px;
   }
   html body .container #sidebar .side-img .about-img-content .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 2em !important;
     width: 30%;
     margin: 0 auto;
   }
@@ -146,6 +154,7 @@ html body .container #sidebar .side-img {
     padding-right: 0.5rem;
   }
   html body .container #sidebar .side-img .about-img-content .links a img {
+    margin-right: 2em;
     width: 20px;
   }
 }

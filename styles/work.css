@@ -23,6 +23,11 @@
   margin-bottom: 1rem;
 }
 
+#work .work-images .bottomtext {
+  font-size: 1.1rem;
+  font-family: monospace;
+}
+
 #work .work-images:hover {
   -webkit-box-shadow: 0px 2px 8px 0px #494646;
           box-shadow: 0px 2px 8px 0px #494646;
