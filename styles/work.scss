@@ -13,6 +13,10 @@
   }
   .work-images {
     margin-bottom: 1rem;
+    .bottomtext{
+     font-size: 1.1rem;
+     font-family: monospace;
+    }
     &:hover {
       box-shadow: 0px 2px 8px 0px #494646;
       transition: 0.2s;
