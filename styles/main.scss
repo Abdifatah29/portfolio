@@ -58,9 +58,11 @@ html {
             justify-content: space-evenly;
             button {
               width: 100%;
+              cursor: pointer;
               a {
                 img {
                   width: 60px;
+                  cursor: pointer;
                 }
               }
               img {
@@ -91,6 +93,8 @@ html {
             box-shadow: 9px -4px 15px -4px #494646;
             .about-img-content {
               position: absolute;
+              width: 50vh;
+              height: 15vh;
               left: 25%;
               bottom: 20px;
               background: #8585852e;
@@ -102,6 +106,8 @@ html {
                 font-size: 25px;
               }
               .links {
+                display: flex;
+                margin-top: 2em !important ;
                 width: 30%;
                 margin: 0 auto;
                 a:first {
@@ -109,6 +115,7 @@ html {
                 }
                 a {
                   img {
+                    margin-right: 2em;
                     width: 20px;
                   }
                 }
